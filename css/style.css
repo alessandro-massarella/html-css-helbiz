@@ -1,0 +1,11 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.debug {
+  border: 1px solid black;
+}
+
+.top-header {
+  height: 80px;
+}
