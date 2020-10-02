@@ -1,5 +1,6 @@
 html {
   font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
 }
 
 .container {
@@ -15,7 +16,7 @@ html {
 
 .top-header .logo img {
   /* vertical-align: middle; */
-  width: 100px;
+  width: 80px;
 }
 
 .ghost-align::before {
@@ -27,27 +28,30 @@ html {
 
 .top-header.container [class*="col-"] {
   height: 80px;
-
 }
 
 [class*="nav-"] {
   float: right;
 }
 
-
-
 [class*="nav-"] li {
   display: inline-block;
+  vertical-align: middle;
 }
 
 /* per non applicare il margine solo all'ultimo */
-[class*="nav-"] li :not (:last-child){
+[class*="nav-"] li:not(:last-child) {
   margin-right: 10px;
-
-
 }
 
 [class*="nav-"] li a {
   text-decoration: none;
   color: black;
+  font-size: 0.8rem;
+}
+
+/* applica il bordino a tutti tranne che al primo */
+.nav-right li:not(:first-child) a {
+  border-left: 1px solid grey;
+  padding-left: 10px;
 }
