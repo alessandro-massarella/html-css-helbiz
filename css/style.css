@@ -55,3 +55,12 @@ html {
   border-left: 1px solid grey;
   padding-left: 10px;
 }
+
+
+/* SEZIONE BOTTOM-HEADER */
+.header-background {
+  background-image: url(../img/header.jpg);
+  height: 500px;
+  background-position: center;
+
+}
