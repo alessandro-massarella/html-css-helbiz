@@ -91,3 +91,12 @@ html {
   top: 40px;
   transform: translate(-50%, -50%);
 }
+
+.header-background .bottom-header img {
+  width: 80px;
+}
+
+.header-background .bottom-header .col-lg-12 {
+  text-align: center;
+  color: white;
+  
